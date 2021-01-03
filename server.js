@@ -45,7 +45,6 @@ const routes = {
   }
 };
 
-console.log("SAY ANYTING")
 
 function upvoteComment(url, request){
   const id = Number(url.split('/').filter(segment => segment)[1]);
